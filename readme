@@ -1,7 +1,10 @@
 Proovin siis siia kirjutada, et mis skript miskit teeb:
 GUId-
-ConnectionGUI2
+ConnectionGUI2-Juhul kui pole serverisse ühendatud, tekitab see graafilise liidese UDP serverisse ühendamiseks. Juhul kui serverisse on ühendatud, tegeleb tanki valimisega ning muude vajalike menüüvõimalustega.
+UDPConnectionGUI- Tegeleb vist UDP serveri GUI-ga (nagu nimigi ütleb)
+MasterServerGUI- TegelebMAster Serveri GUI-ga. Hetkel pole tähtis, niikaua kuni UDP server hakkab korralikult tööle.
 Networking-
+
 
 
 Tanki omadused ja värgid-
