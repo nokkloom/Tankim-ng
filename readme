@@ -3,8 +3,11 @@ GUId-
 ConnectionGUI2-Juhul kui pole serverisse ühendatud, tekitab see graafilise liidese UDP serverisse ühendamiseks. Juhul kui serverisse on ühendatud, tegeleb tanki valimisega ning muude vajalike menüüvõimalustega.
 UDPConnectionGUI- Tegeleb vist UDP serveri GUI-ga (nagu nimigi ütleb)
 MasterServerGUI- TegelebMAster Serveri GUI-ga. Hetkel pole tähtis, niikaua kuni UDP server hakkab korralikult tööle.
+Menu.js- Tekitab peamenüüd.
 Networking-
 
 
 
 Tanki omadused ja värgid-
+Elud.cs- Hoiab endas tanki elude arvu, näitab eluriba (sellega võiks küll mõni GUI objekt tulevikus tegelema hakata) ning vähendab elusid, kui tank saabn kahju.
+Sihtimine.js- tegeleb kahuritoru sihtimisega. Ainus kood, mille toimimisest ma absoluutselt aru ei saa :S.
