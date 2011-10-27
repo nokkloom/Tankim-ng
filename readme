@@ -6,7 +6,9 @@ MasterServerGUI- TegelebMAster Serveri GUI-ga. Hetkel pole tähtis, niikaua kuni
 Menu.js- Tekitab peamenüüd.
 Networking-
 
-
+Kaamera kõüljes olevad skriptid-
+Juhtija.cs- 
+Smoothfollow.js- Selle abil jälitab kaamera mingit kindlat asja.
 
 Tanki omadused ja värgid-
 Elud.cs- Hoiab endas tanki elude arvu, näitab eluriba (sellega võiks küll mõni GUI objekt tulevikus tegelema hakata) ning vähendab elusid, kui tank saabn kahju.
