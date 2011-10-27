@@ -12,5 +12,8 @@ Tanki omadused ja värgid-
 Elud.cs- Hoiab endas tanki elude arvu, näitab eluriba (sellega võiks küll mõni GUI objekt tulevikus tegelema hakata) ning vähendab elusid, kui tank saabn kahju.
 Sihtimine.js- tegeleb kahuritoru sihtimisega. Ainus kood, mille toimimisest ma absoluutselt aru ei saa :S.
 Soomusetugevus.cs- topitakse külge igale soomuse tükile. Määrab soomuse tugevuse konkreetses kohas.
-tornip88raja3.cs- nagu nimigi ütleb, tegeleb torni pööramisega.
+tornip88raja3.cs- nagu nimigi ütleb, tegeleb torni pööramisega. NB! Sihtimine tegeleb kahuritoru liigutamisega.Tornipööraja tornipööramisega.
 Roomikujuhtija.cs- Tegeleb tanki kere edasi liigutamisega. Sellesse on kirjutatud mingid algelised käigud (1-3 kui õieti mäletan) ning selleabil painduvad roomikud vastavalt maapinnale.
+Laskmine.cs- Tegeleb siis mürskude tekitamisega.(laskmisega)
+
+Myrsk2.cs-tegeleb mürsuga, ning arvutab palju objekt kahju saab.
