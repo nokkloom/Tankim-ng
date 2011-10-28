@@ -2,13 +2,19 @@ Proovin siis siia kirjutada, et mis skript miskit teeb:
 GUId-
 ConnectionGUI2-Juhul kui pole serverisse ühendatud, tekitab see graafilise liidese UDP serverisse ühendamiseks. Juhul kui serverisse on ühendatud, tegeleb tanki valimisega ning muude vajalike menüüvõimalustega.
 UDPConnectionGUI- Tegeleb vist UDP serveri GUI-ga (nagu nimigi ütleb)
-MasterServerGUI- TegelebMAster Serveri GUI-ga. Hetkel pole tähtis, niikaua kuni UDP server hakkab korralikult tööle.
+MasterServerGUI- TegelebMaster Serveri GUI-ga. Hetkel pole tähtis, niikaua kuni UDP server hakkab korralikult tööle.
 Menu.js- Tekitab peamenüüd.
-Networking-
 
-Kaamera kõüljes olevad skriptid-
-Juhtija.cs- 
+
+Networking-
+Rigidassign-
+NetworkLevelLoad-
+NetworkRigidbody-
+
+Kaamera küljes olevad skriptid-
+Juhtija.cs- Äärmiselt tähtis koodijupp, mis tegeleb tankijuhitmisega. Kontrollib, kas mingeid nuoppe vajutatakse ning kui vajutatakse, siis saadab vajalikud signaalid tankile.
 Smoothfollow.js- Selle abil jälitab kaamera mingit kindlat asja.
+
 
 Tanki omadused ja värgid-
 Elud.cs- Hoiab endas tanki elude arvu, näitab eluriba (sellega võiks küll mõni GUI objekt tulevikus tegelema hakata) ning vähendab elusid, kui tank saabn kahju.
@@ -17,5 +23,7 @@ Soomusetugevus.cs- topitakse külge igale soomuse tükile. Määrab soomuse tuge
 tornip88raja3.cs- nagu nimigi ütleb, tegeleb torni pööramisega. NB! Sihtimine tegeleb kahuritoru liigutamisega.Tornipööraja tornipööramisega.
 Roomikujuhtija.cs- Tegeleb tanki kere edasi liigutamisega. Sellesse on kirjutatud mingid algelised käigud (1-3 kui õieti mäletan) ning selleabil painduvad roomikud vastavalt maapinnale.
 Laskmine.cs- Tegeleb siis mürskude tekitamisega.(laskmisega)
+Raskuspunkt.vs- Selle abil saab ära määrata tanki raskuskeskpunkti. Ehk, Child, mille külge see kinnitatakse on raskuspunktiks.
 
 Myrsk2.cs-tegeleb mürsuga, ning arvutab palju objekt kahju saab.
+Sihikuliigutamine ja 3- tegelevad sihiku joonistamisega. Esimine on vist kasutuselt maas.
