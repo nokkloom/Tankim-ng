@@ -1,22 +1,22 @@
 Proovin siis siia kirjutada, et mis skript miskit teeb:
-GUId-
+GUId:
 ConnectionGUI2-Juhul kui pole serverisse ühendatud, tekitab see graafilise liidese UDP serverisse ühendamiseks. Juhul kui serverisse on ühendatud, tegeleb tanki valimisega ning muude vajalike menüüvõimalustega.
 UDPConnectionGUI- Tegeleb vist UDP serveri GUI-ga (nagu nimigi ütleb)
 MasterServerGUI- TegelebMaster Serveri GUI-ga. Hetkel pole tähtis, niikaua kuni UDP server hakkab korralikult tööle.
 Menu.js- Tekitab peamenüüd.
 
 
-Networking-
-Rigidassign-
-NetworkLevelLoad-
-NetworkRigidbody-
+Networking:
+Rigidassign-Juhul, kui objekt ei kuulu meile, aktiveerib objekti network rigidbody.
+NetworkLevelLoad-Laeb ruumi mängu (saadab välja RPC-d ja asjad?)
+NetworkRigidbody-Kasutatakse nende Rigidbodyde jälgimiseks, mis ei kuulu meile.
 
-Kaamera küljes olevad skriptid-
+Kaamera küljes olevad skriptid:
 Juhtija.cs- Äärmiselt tähtis koodijupp, mis tegeleb tankijuhitmisega. Kontrollib, kas mingeid nuoppe vajutatakse ning kui vajutatakse, siis saadab vajalikud signaalid tankile.
 Smoothfollow.js- Selle abil jälitab kaamera mingit kindlat asja.
 
 
-Tanki omadused ja värgid-
+Tanki omadused ja värgid:
 Elud.cs- Hoiab endas tanki elude arvu, näitab eluriba (sellega võiks küll mõni GUI objekt tulevikus tegelema hakata) ning vähendab elusid, kui tank saabn kahju.
 Sihtimine.js- tegeleb kahuritoru sihtimisega. Ainus kood, mille toimimisest ma absoluutselt aru ei saa :S.
 Soomusetugevus.cs- topitakse külge igale soomuse tükile. Määrab soomuse tugevuse konkreetses kohas.
@@ -27,3 +27,7 @@ Raskuspunkt.vs- Selle abil saab ära määrata tanki raskuskeskpunkti. Ehk, Chil
 
 Myrsk2.cs-tegeleb mürsuga, ning arvutab palju objekt kahju saab.
 Sihikuliigutamine ja 3- tegelevad sihiku joonistamisega. Esimine on vist kasutuselt maas.
+
+Viimane töötav Unity Pakk:
+
+Viimane Build:
